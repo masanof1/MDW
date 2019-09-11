@@ -1,0 +1,59 @@
+{
+	"name": "SourceDataset_k68",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "CloudStreaming",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [
+			{
+				"name": "TransactionID",
+				"type": "uniqueidentifier",
+				"precision": 255,
+				"scale": 255
+			},
+			{
+				"name": "CustomerID",
+				"type": "uniqueidentifier",
+				"precision": 255,
+				"scale": 255
+			},
+			{
+				"name": "MovieID",
+				"type": "uniqueidentifier",
+				"precision": 255,
+				"scale": 255
+			},
+			{
+				"name": "StreamStart",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			},
+			{
+				"name": "StreamEnd",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			},
+			{
+				"name": "CreatedDate",
+				"type": "date",
+				"precision": 255,
+				"scale": 255
+			},
+			{
+				"name": "UpdatedDate",
+				"type": "date",
+				"precision": 255,
+				"scale": 255
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "Transactions"
+		}
+	}
+}
