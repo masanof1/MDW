@@ -19,7 +19,7 @@
 					"value": "@dataset().cw_fileName",
 					"type": "Expression"
 				},
-				"fileSystem": "ajsales"
+				"fileSystem": "sd3-cloudsales"
 			}
 		}
 	}
